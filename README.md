@@ -4,6 +4,35 @@ An Android application that aggregates news from multiple sources with coverage 
 
 ---
 
+## ⚠️ Configuration Required
+
+### You Need an OpenRouter API Key
+
+**The app requires an OpenRouter API key to function properly.**
+
+The app's core features (news aggregation from RSS sources) work without a key, but **coverage analysis and AI-powered features require an API key**.
+
+### How to Get Your API Key
+
+1. Visit [OpenRouter](https://openrouter.ai/)
+2. Sign up for a free account
+3. Navigate to the API Keys section
+4. Create a new API key
+5. Copy the key (it starts with `sk-or-v1-`)
+
+### How to Configure the App
+
+After installing the APK:
+
+1. Open the Unbiased News App
+2. Go to **Settings**
+3. Enter your OpenRouter API key
+4. The app will save the key securely
+
+> **Your API key is stored locally on your device and is never shared with anyone other than OpenRouter for API calls.**
+
+---
+
 ## 📥 Download & Install
 
 ### Quick Install (No Building Required)
@@ -11,6 +40,7 @@ An Android application that aggregates news from multiple sources with coverage 
 1. Download the APK from the releases section below
 2. Transfer to your Android device
 3. Tap to install (you may need to enable "Unknown Sources" in Settings → Security)
+4. Open the app and configure your API key in Settings
 
 ---
 
@@ -27,8 +57,8 @@ An Android application that aggregates news from multiple sources with coverage 
 ## ✨ Features
 
 - **Multi-Source Aggregation**: Fetches news from 16+ diverse sources
-- **Coverage Analysis**: Analyzes article sentiment using AI
-- **Bias Detection**: Identifies political and ideological bias in coverage
+- **Coverage Analysis**: Analyzes article sentiment using AI (requires API key)
+- **Bias Detection**: Identifies political and ideological bias in coverage (requires API key)
 - **Topic Filtering**: Filter news by topics (Technology, Politics, World, etc.)
 - **Offline Reading**: Save articles for offline access
 
@@ -43,6 +73,13 @@ For developers who want to build the app from source code:
 - Android Studio Hedgehog or later
 - JDK 17
 - Android SDK 34+
+- OpenRouter API key (for full features)
+
+### API Key Setup for Development
+
+1. Get an API key from [OpenRouter](https://openrouter.ai/)
+2. Create a file at `context/api_key.txt` in the project root
+3. Add your API key to that file
 
 ### Build Steps
 
@@ -84,18 +121,6 @@ app/src/main/
 ├── res/               # Resources (layouts, strings, themes)
 └── assets/            # Configuration files (sources.json)
 ```
-
----
-
-## 🔐 API Configuration
-
-The app uses the OpenRouter API for AI analysis. To build and run with full features:
-
-1. Get an API key from [OpenRouter](https://openrouter.ai/)
-2. Create a file at `context/api_key.txt` in the project root
-3. Add your API key to that file
-
-> **Note**: The app will still function without an API key, but coverage analysis features will be disabled.
 
 ---
 

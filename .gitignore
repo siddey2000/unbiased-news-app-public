@@ -1,0 +1,26 @@
+# Build outputs
+**/build/
+**/out/
+.gradle/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Android
+*.apk
+*.ap_
+*.aab
+
+# Private-only files
+context/
+releases/
+reports/
+*.jks
+*.p12
+*.keystore
+keystore.properties
+secrets.properties
+.env

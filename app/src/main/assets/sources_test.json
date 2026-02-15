@@ -1,0 +1,10 @@
+[
+  {
+    "source_id": "techcrunch",
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/feed/",
+    "category": "tech",
+    "region": "us",
+    "isEnabled": true
+  }
+]

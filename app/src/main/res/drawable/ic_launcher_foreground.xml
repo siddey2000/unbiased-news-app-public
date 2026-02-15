@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Newspaper icon representing unbiased news -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,24h60v60h-60z"
+        android:strokeWidth="0"/>
+    <path
+        android:fillColor="#1A5F7A"
+        android:pathData="M30,30h48v8h-48z"/>
+    <path
+        android:fillColor="#1A5F7A"
+        android:pathData="M30,44h30v4h-30z"/>
+    <path
+        android:fillColor="#1A5F7A"
+        android:pathData="M30,52h36v4h-36z"/>
+    <path
+        android:fillColor="#1A5F7A"
+        android:pathData="M30,60h28v4h-28z"/>
+    <path
+        android:fillColor="#1A5F7A"
+        android:pathData="M30,68h34v4h-34z"/>
+</vector>

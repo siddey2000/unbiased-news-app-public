@@ -1,0 +1,130 @@
+[
+  {
+    "source_id": "bbc_world",
+    "name": "BBC World News",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "category": "world",
+    "region": "global",
+    "isEnabled": true
+  },
+  {
+    "source_id": "npr_news",
+    "name": "NPR News",
+    "url": "https://feeds.npr.org/1001/rss.xml",
+    "category": "general",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "guardian_world",
+    "name": "The Guardian World",
+    "url": "https://www.theguardian.com/world/rss",
+    "category": "world",
+    "region": "global",
+    "isEnabled": true
+  },
+  {
+    "source_id": "guardian_politics",
+    "name": "The Guardian Politics",
+    "url": "https://feeds.theguardian.com/theguardian/politics/rss",
+    "category": "politics",
+    "region": "uk",
+    "isEnabled": true
+  },
+  {
+    "source_id": "aljazeera",
+    "name": "Al Jazeera English",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "category": "world",
+    "region": "middle-east",
+    "isEnabled": true
+  },
+  {
+    "source_id": "fox_news",
+    "name": "Fox News",
+    "url": "https://feeds.foxnews.com/foxnews/latest",
+    "category": "politics",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "nypost",
+    "name": "New York Post",
+    "url": "https://nypost.com/feed",
+    "category": "politics",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "mother_jones",
+    "name": "Mother Jones",
+    "url": "http://feeds.feedburner.com/motherjones/main",
+    "category": "politics",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "atlantic",
+    "name": "The Atlantic",
+    "url": "https://www.theatlantic.com/feed/all/",
+    "category": "politics",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "jacobin",
+    "name": "Jacobin",
+    "url": "https://jacobin.com/feed",
+    "category": "politics",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "vox",
+    "name": "Vox",
+    "url": "https://www.vox.com/rss/index.xml",
+    "category": "politics",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "the_intercept",
+    "name": "The Intercept",
+    "url": "https://theintercept.com/feed",
+    "category": "politics",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "bloomberg",
+    "name": "Bloomberg Markets",
+    "url": "https://feeds.bloomberg.com/markets/news.rss",
+    "category": "business",
+    "region": "global",
+    "isEnabled": true
+  },
+  {
+    "source_id": "techcrunch",
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/feed/",
+    "category": "tech",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "wired",
+    "name": "Wired",
+    "url": "https://www.wired.com/feed/rss",
+    "category": "tech",
+    "region": "us",
+    "isEnabled": true
+  },
+  {
+    "source_id": "politico",
+    "name": "Politico",
+    "url": "https://www.politico.com/rss",
+    "category": "politics",
+    "region": "us",
+    "isEnabled": true
+  }
+]
